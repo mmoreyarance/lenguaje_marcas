@@ -1,0 +1,57 @@
+/* 1 */
+
+p {
+    background-color: yellow;
+}
+
+/* 2 */
+
+#boton-1 {
+    background-color: blue;
+}
+
+/* 3 */
+
+#boton-unico {
+    color:white;
+}
+
+/* 4 */
+
+a[target="_blank"] {
+    color:green;
+}
+
+/* 5 */
+
+#contenedor p {
+    background-color: aqua;
+}
+
+p {
+    background-color: yellow;
+}
+
+/* 6 */
+
+#navegacion a:hover {
+    color: red;
+}
+
+/* 7 */
+
+a[href^="http"]::after {
+    content: "\2192";
+}
+
+/* 8 */
+
+#menu li {
+    list-style-type: square;
+}
+
+/* 10 */
+
+h2 + p {
+    background-color: blueviolet;
+}

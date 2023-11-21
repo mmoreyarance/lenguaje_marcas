@@ -1,0 +1,47 @@
+
+/* cambia el color del fondo de los titulos en la pagina de tablas de manera exclusiva y el color del texto*/
+th {
+    background-color:blue;
+    color:beige;
+}
+
+/* cambia el color del fondo del contenido de las tablas de manera exclusiva */
+tr {
+    background-color: rgb(255, 127, 249);
+}
+
+/* cambia el color del texto a los links los cuales estan incluidos con el selector de id, cambia el texto a "rojo" cuando pasas el cursor sobre los links */
+#navegacion a:hover {
+    color: red;
+}
+
+/* similar al selector anterior, esta vez para otro set de links, utilizando seelectores distintos para que no se mezclen */
+#navegacion2 a:hover {
+    text-decoration: none;
+    color: black
+}
+
+/* selector de clase para cambiar el color del texto de forma exclusiva controlado por un span */
+.españa {
+    color: yellow;
+}
+
+/*selector de id que cambia el texto de forma exclusiva a los elementos los cuales esten incluidos en el div correspondiente */
+#colortexto {
+    color: red;
+}
+
+
+/* cambia el color de texto de todos los atributos simples de la pagina */
+i {
+    color:blueviolet;
+}
+
+b {
+    background-color: beige;
+}
+
+/*cambia el color de fondo de toda la pagina al seleccionar la etiqueta HTML */
+html {
+    background-color: aquamarine;
+}
