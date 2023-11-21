@@ -6,7 +6,7 @@ th {
 }
 
 /* cambia el color del fondo del contenido de las tablas de manera exclusiva */
-tr {
+tr { 
     background-color: rgb(255, 127, 249);
 }
 
