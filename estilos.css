@@ -1,0 +1,135 @@
+ /*Encabezado principal para todas las paginas*/
+header {
+    background-color:rgb(233, 56, 12);
+    text-align: center;
+}
+/*Formato especifico para imagen 1*/
+#imagen1 {
+    text-align: center;
+    background-color:beige;
+}
+
+/*Formato especifico para la imagen del titulo del indice*/
+img.pequeña {
+    text-align: center;
+    background-color: beige;
+    height: 200px;
+}
+/*Formato para el contenido de la pagina*/
+body {
+    background-color: beige;
+}
+
+#divmain1 {
+    margin-left: 100px;
+}
+/*Formato de contenido para el apartado monitores del indice*/
+#monitores {
+    text-align: center;
+    font-size: 35px;
+}
+/*Formato para la imagen de los apartados del contenido*/
+img.pequeña2 {
+    text-align: center;
+    background-color: beige;
+    height: 400px;
+}
+/*Formato para los botones del indice*/
+.boton1 {
+    text-decoration: none;
+    padding: 25px 50px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+/*Formato de contenido para el apartado teclados del indice*/
+
+#teclados {
+    text-align: center;
+    font-size: 35px;
+}
+/*Formato de contenido para el apartado ratones del indice*/
+
+#ratones {
+    text-align: center;
+    font-size: 35px;
+}
+/*Formato de contenido para el apartado ofertas del indice*/
+
+#ofertas {
+    text-align: center;
+    font-size: 35px;   
+}
+/*barra de navegación*/
+ul {
+    list-style-type: none;
+    width: 200px;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: grey;
+  }
+  
+li {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+/*Pie de página*/
+footer {
+    text-align: center;
+    color:white;
+    background-color: black;
+  }
+
+#footer {
+    text-align: center;
+    color:white;
+    background-color: black;
+  }
+/*Formato para el titulo de la pagina de monitores*/
+#monitor-titulo {
+    text-align: left;
+  }
+
+#imagen2 {
+        text-align: center;
+        background-color:beige;
+  }
+/*Formato de imagen para los contenidos de las paginas de productos*/
+img.pequeña2 {
+    text-align: left;
+    background-color: beige;
+    height: 200px;
+}
+
+.boton2 {
+    text-decoration: none;
+    padding: 10px 35px;
+    font-size: 25px;
+    background-color: aqua;
+}
+/*Formato para el titulo de la pagina de teclados*/
+
+#teclado-titulo {
+    text-align: left;
+  }
+/*Formato para el titulo de la pagina de ratones*/
+
+#raton-titulo {
+    text-align: left;
+}
+/*Formato para el titulo de la pagina de ofertas*/
+
+#oferta-titulo {
+    text-align: center;
+  }
+
+#oferta-contenido {
+    text-align: left;
+}

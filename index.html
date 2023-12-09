@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head> <!--Encabezado que no ve el usuario en donde va el titulo y el enlace al css-->
+    <meta charset="UTF-8">
+    <title>ProyectoWeb</title>
+    <link rel="stylesheet" media="only screen and (max-width: 1920px)" href="estilos.css">
+</head>
+<header> <!--Encabezado visible dodne se encuentra el titulo de la protada-->
+    <div><!--Etiqueta div para centrar el titulo de la pagina-->
+        <h1>Bienvenido a pcofertas.com</h1>
+        <h2>¿En qué podemos ayudarle?</h2>
+    </div>
+    <div id="imagen1"> <!-- Etiqueta para la imagen de la portada, separada para poder centrarla-->
+        <img class="pequeña" src="https://img.freepik.com/fotos-premium/monitor-signo-interrogacion_295303-4599.jpg">
+    </div>
+</header>
+
+<body>
+    <!-- paginas de contenido, index, contenido, ofertas -->
+    <main> <!--Etiqueta main para marcar el contenido principal de la pagina-->
+        <div id="divmain1"> <!-- Etiqueta div para poder poner el texto a la izquierda-->
+            <h2>Productos principales</h2>
+            <p>Bienvenido a la mejor página de venta de periféricos, conocida por su variedad.
+                <br> <!--salto de linea-->
+                Aqui encontraras una seria de enlaces que te llevaran a las distintas secciones de nuestra tienda
+            </p>
+            <p>Econtraras variedad ya sea:</p>
+        </div>
+        <!--Barra de navegación-->
+        <ul>
+            <p>Menú de navegación</p>
+            <li><a href="index.html">Indice</a></li>
+            <li><a href="monitores.html">Monitores</a></li>
+            <li><a href="teclados.html">Teclados</a></li>
+            <li><a href="ratones.html">Ratones</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+        <!--Etiquetas div para darle formato al cointenido, botones e imagenes-->
+        <div id="monitores">
+            <button class="boton1"> <a href="monitores.html">Monitores</a> </button>
+            <div id="imagen1">
+                <img class="pequeña2"
+                    src="https://i01.appmifile.com/webfile/globalimg/spainOria/desktop-monitor-27.png">
+            </div>
+        </div>
+        <div id="teclados">
+            <button class="boton1"> <a href="teclados.html">Teclados</a></button>
+            <div id="imagen1">
+                <img class="pequeña2"
+                    src="https://images.vexels.com/media/users/3/323630/isolated/preview/d99f9ca7c3b6f1e472f177b4da4743a7-projeto-de-curso-de-um-teclado.png">
+            </div>
+        </div>
+        <div id="ratones">
+            <button class="boton1"> <a href="ratones.html">Ratones</a></button>
+            <div id="imagen1">
+                <img class="pequeña2" src="https://cdn-icons-png.flaticon.com/512/82/82433.png">
+            </div>
+        </div>
+        <div id="ofertas">
+            <button class="boton1"> <a href="ofertas.html">Ofertas</a></button>
+            <div id="imagen1">
+                <img class="pequeña2"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/009/380/892/small/big-sale-sticker-clipart-design-illustration-free-png.png">
+            </div>
+        </div>
+    </main>
+    <footer><!--Pie de pagina donde esta la información de la empresa-->
+        <h2>Contacta con nosotros</h2>
+            <h3>e-mail</h3>
+            <p>pcofertascom@gmail.com</p>
+            <h3>Teléfono</h3>
+            <p>902832714</p>
+    </footer>
+</body>
+
+</html>
